@@ -19,7 +19,7 @@ export function squareOf(x: unknown){
   }
 }
 
-const squareOfTwo = squareOf(10);
+const squareOfTwo = squareOf(2);
 
 if(typeof squareOfTwo === 'number') {
   console.log(squareOfTwo);
