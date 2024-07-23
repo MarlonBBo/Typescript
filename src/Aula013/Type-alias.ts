@@ -7,8 +7,8 @@ type Person = {
   favouriteColour?: string
 };
 
-type ColorRGB = 'Vermelho'| 'Verde' | 'Azul';
-type ColorCMYK = 'Ciano' | 'Magenta' | 'Preto';
+type ColorRGB = 'Vermelho'| 'Verde' | 'Azul';// OR
+type ColorCMYK = 'Ciano' | 'Magenta' | 'Preto';// OR
 type FavouriteColour = ColorRGB | ColorCMYK;
 
 const Cara: Person = {
