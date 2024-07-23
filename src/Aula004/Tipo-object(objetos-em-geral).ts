@@ -1,10 +1,10 @@
 const ObjectKey: {
-  chaveA: string;
-  chaveB: string;
-  chaveC?: string;
+  keyA: string;
+  keyB: string;
+  keyC?: string;
 } = {
-  chaveA: 'uma chave',
-  chaveB: 'outra chave',
+  keyA: 'uma chave',
+  keyB: 'outra chave',
 }
 
 console.log(ObjectKey)

@@ -1,7 +1,7 @@
 //Array<T> - T[]
 
 export function mult(...args: Array<number>): number {
-    return args.reduce((ac, valor)=> ac * valor);
+    return args.reduce((ac, valor)=> ac * valor,1);
 }
 
 export function joinStrings(...args: string[]): string {
