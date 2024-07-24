@@ -10,7 +10,7 @@ export function mapString(array: string[], callbackfn: TypeCallback): string[]{
 }
 
 const abc: string[] = ['a', 'b', 'c'];
-const abcMap = mapString(abc, (item)=> item.toLocaleUpperCase());
+const abcMap = mapString(abc, (item)=> item.toUpperCase());
 
 console.log(abc);
 console.log(abcMap);
